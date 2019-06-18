@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    <goal type="filedeletion" target="nixmanbackup" file="d3odex_info_personal.zip" path="home"/>
+    <goal type="filedeletion" target="nixmanbackup" file="d3odex_info_techinical.zip" path="home"/>
+
+  </goals>
+   <nextMission>Missions/d3odex_project1.xml</nextMission>
+  <email>
+    <sender>gitter</sender>
+    <subject>Info deletion</subject>
+    <body>There's one man called nixman1932.He was stealed personal info about our team leader d3odex.He wants to delete this info and backups.Reply when done
+</body>
+    <attachments>
+      <link comp="nixmanhome"/>
+    </attachments>
+  </email>
+</mission>

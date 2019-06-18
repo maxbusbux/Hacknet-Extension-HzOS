@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+
+  </goals>
+  <!--
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd>
+  -->
+  <missionStart val="7">loadConditionalActions:Actions/AssignFaction.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <!--
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>na0x</sender>
+    <subject>Welcome to the team!</subject>
+    <body>Hello.We have a mission hub.Login to it.New missions will be here
+</body>
+    <attachments>
+      <link comp="hackx_hub"/>
+      <account comp="hackx_hub" user="user" pass="reptide" />
+      <link comp="Hackx_Assets"/>
+      <account comp="Hackx_Assets" user="admin" pass="checkthewindow"/>
+    </attachments>
+  </email>
+</mission>

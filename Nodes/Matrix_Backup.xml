@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="matrix_backup" ip="32.415.2.47" name="Matrix Backup" security="4">
+<trace time="240"/>
+<firewall level="6" solution="newreality"/>
+<ports>22,25,1433,80,104</ports>
+ <file path="BACKUP" name="core.dll">#BINARY#</file>
+ <file path="BACKUP" name="kernel.so">#BINARY#</file>
+ <file path="BACKUP" name="init.gz">#BINARY#</file>
+ <file path="BACKUP" name="base.xz">#BINARY#</file>
+ <file path="BACKUP" name="vmLoader.dll">#BINARY#</file>
+ <file path="BACKUP" name="GPULoader.dll">#BINARY#</file>
+ <file path="BACKUP" name="Calucalator.so">#BINARY#</file>
+ <file path="BACKUP" name="3DRender.dll">#BINARY#</file>
+ <file path="BACKUP" name="libRNG.dll">#BINARY#</file>
+ <file path="BACKUP" name="ncurses.so">#BINARY#</file>
+ <file path="BACKUP" name="Dumper.gz">#BINARY#</file>
+ <file path="BACKUP" name="BlankWorld.xz">#BINARY#</file>
+ <file path="BACKUP" name="Editor.exe">#BINARY#</file>
+ <file path="BACKUP" name="Accelrator.dll">#BINARY#</file>
+ <file path="BACKUP" name="ShaderCacher.so">#BINARY#</file>
+ <file path="BACKUP" name="Launcher.dll">#BINARY#</file>
+ <file path="BACKUP" name="Sync.dll">#BINARY#</file>
+ <file path="BACKUP" name="BrainScan.dll">#BINARY#</file>
+ <file path="BACKUP" name="PhysicsOveerider.dll">#BINARY#</file>
+ <file path="BACKUP" name="BrainScan_OLD.dll">#BINARY#</file>
+ <file path="BACKUP" name="adnin_console.exe">#BINARY#</file>
+ <file path="BACKUP" name="Release.zip">#BINARY#</file>
+ <proxy time="1" />
+<dlink target="matrix_backup"/>
+<dlink target="matrix_mail"/>
+<dlink target="matrix_main"/>
+<dlink target="matrix_whitelist1"/>
+<portsForCrack val="5"/>
+</Computer>

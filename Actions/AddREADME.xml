@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddAsset FileName="README" FileContents="HzOS version 1.0      if this is registered copy of HzOS visit hzsoftware.com for add you copy to database" TargetComp="playerComp" TargetFolderpath="bin" />
+    
+    
+  </Instantly>
+
+</ConditionalActions>

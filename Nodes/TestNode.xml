@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Hackx_Assets" name="Hackx Asset server" icon="chip">
+	<adminPass pass="checkthewindow"/>
+	<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+	<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+	<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+	<file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+	<file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+	<file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+	<portsForCrack val="3"/>
+	<ports>22, 21, 25</ports>
+	<trace time="5555"/>
+
+</Computer>

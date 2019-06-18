@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="Hackx_Assets" TargetFolderpath="bin" />
+    
+    
+  </Instantly>
+
+</ConditionalActions>

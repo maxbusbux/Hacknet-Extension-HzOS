@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hackxtest" name="HackX Test Machine">
+<ports>22,21,80</ports>
+<file path="home" name="invitation_password.txt">dash123xax</file>
+ <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+ <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+<trace time="7000" />
+<portsForCrack val="3" />
+</Computer>

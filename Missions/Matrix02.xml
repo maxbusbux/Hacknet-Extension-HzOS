@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="matrix02">
+  <goals>
+    <goal type="getstring" target="swd123ax1234" />
+  </goals>
+   <nextMission>Missions/Matrix03.xml</nextMission>
+  <email>
+    <sender>haxor</sender>
+    <subject>Matrix pt2</subject>
+    <body>I found some intersting info,but it useless.Only thing i found is Whitelist authenticator.If you found intersting things pls reply.I know they have mainframe and try to login and send me a admin pass  </body>
+    <attachments>
+      <link comp="matrix_whitelist1"/>
+    </attachments>
+  </email>
+</mission>

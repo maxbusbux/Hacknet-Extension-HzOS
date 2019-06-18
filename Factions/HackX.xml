@@ -1,0 +1,7 @@
+<CustomFaction name="HackX Faction" id="hackxfaction" playerVal="0">
+
+<Action ValueRequired="5">
+ <AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="Hackx_Assets" TargetFolderpath="bin" />
+</Action>
+
+</CustomFaction>

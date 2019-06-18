@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="matrix_services" ip="87.135.89.1" name="Matrix Mainframe" security="3">
+<trace time="1000"/>
+<ports>22,25,1433,80</ports>
+<adminPass pass="swd123ax1234"/>
+<file path="home" name="Info_mainframe.txt">
+This is central  mainframe.
+This machine links to most important machines.
+</file>
+<eosDevice name="Richard 's ePhone 4S" id="eosIntroPhone" icon="ePhone2" empty="true">
+    <note>TestNote
+More text</note>
+
+    <mail username="gay83@matrix.com" pass="LA-014-146" />
+
+
+  </eosDevice>
+ <adminPass pass="aswd123ax1234"/>
+<dlink target="matrix_backup"/>
+<dlink target="matrix_mail"/>
+<dlink target="matrix_main"/>
+<dlink target="matrix_whitelist1"/>
+<portsForCrack val="1000"/>
+</Computer>

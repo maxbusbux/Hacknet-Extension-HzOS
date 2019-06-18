@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nixmanbackup" name="Nixman Backup Server" security="3">
+<dlink target="nixmanhome"/>
+<ports>22,21,6881</ports>
+<proxy time="1"></proxy>
+<firewall level="6" solution="lackofshit" additionalTime="1.0"/>
+<file path="home" name="d3odex_info_personal.zip">#BINARY#</file>
+<file path="home" name="d3odex_info_techinical.zip">#BINARY#</file>
+<trace time="5678" />
+</Computer>

@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="matrix_whitelist1" ip="86.14.64.1" name="Matrix Whitelist" security="3">
+<trace time="1000"/>
+<ports>22,25,1443,80</ports>
+
+<dlink target="matrix_backup"/>
+<dlink target="matrix_mail"/>
+<dlink target="matrix_main"/>
+<dlink target="matrix_whitelist1"/>
+<portsForCrack val="4"/>
+</Computer>

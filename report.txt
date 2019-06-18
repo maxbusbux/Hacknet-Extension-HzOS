@@ -1,0 +1,9 @@
+Errors Found. Writing report to Extensions/BlankExtension/report.txt
+Error Loading Mission: Extensions/BlankExtension/Missions/Matrix03.xml
+
+Error loading mission Goal "clearfolder" 
+NullReferenceException - this means something referenced by an ID (probably a computer) or
+a filename (missions/scripts etc) was not found.
+ 
+Source : Hacknet  ::  System.FormatException
+

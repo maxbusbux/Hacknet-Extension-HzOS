@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="d3odexproject" ip="138.45.532.367" name="d3odex project server" security="2">
+<trace time="4000"/>
+<file path="home" name="project_info.txt">Airblock - tool that turns off internet on a specific machine
+and dump network on a specific machine in background
+in fact airblock - rootkit that masks as normal daemon,it installs a controller and dumper
+controller - it is a lightweight server that can be controlled  by a client,client can send off command to controller and internet turns off,also client can reboot machine,check status,browse filesystem,and more ...
+dumper - daemon that dumps all network traffic and sends to client pc through ssh in encrypted format,client decrypting that dump with unique key generated on setup of this utility
+</file>
+<DatabaseDaemon Permissions="private" DataType="GitCommitEntry" Foldername="database" Color="85,0,150" AdminEmailAccount="Maghghtt@TestExtensionMail.com" AdminEmailHostID="d3odexproject" Name="Airblock Project"> 
+<adminPass pass="airblock"/>
+<GitCommitEntry>
+<EntryNumber>4561</EntryNumber>
+<ChangedFiles>
+<String>main.c</String>
+</ChangedFiles>
+<Message>Improved communication between client controller and dumper</Message>
+<UserName>d3odex</UserName>
+<SourceIP>192.168.1.1</SourceIP>
+</GitCommitEntry>
+<GitCommitEntry>
+<EntryNumber>6151</EntryNumber>
+<ChangedFiles>
+<String>controller.c</String>
+</ChangedFiles>
+<Message>Change default port</Message>
+<UserName>d3odex</UserName>
+<SourceIP>192.168.1.1</SourceIP>
+</GitCommitEntry>
+
+</DatabaseDaemon>
+</Computer>

@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="strange_server_whitelist" ip="88.11.55.1325" name="Matrix Whitelist" security="3">
+<trace time="3000"/>
+<ports>22,21,25,80,6881</ports>
+<portsForCrack val="3"/>
+<dlink target="starnge_server"/>
+<file name="ccrypt_final.zip" path="home">#BINARY#</file>
+<proxy time="1"></proxy>>
+</Computer>

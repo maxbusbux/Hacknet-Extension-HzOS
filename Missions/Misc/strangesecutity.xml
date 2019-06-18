@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    <goal type="getadminpasswordstring" target="strange_server"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionEnd val="1">loadConditionalActions:Actions/AddRank.xml</missionEnd>
+<nextMission>NONE</nextMission>
+<posting title="Check strange server"  requiredRank="0" >We was found the strange server.I want you to check it.</posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>f1re</sender>
+    <subject>Unblock me</subject>
+    <body>Hello #PLAYERNAME#.Today i found a strange server.this server don't let me in.Please reply 
+</body>
+    <attachments>
+      <link comp="strange_server"/>
+      <link  comp="strange_server_whitelist"/>
+    </attachments>
+  </email>
+</mission>

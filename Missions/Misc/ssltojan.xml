@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    <goal type="fileupload" target="dendy1337home" file="SSLTrojan.dec" path="home" destTarget="hackx_dropserver" destPath="Drop/Uploads"/>
+    <goal type="getstring" target="sunrise2032" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+<missionStart val="7">loadConditionalActions:Actions/UpdateAssets1.xml</missionStart>
+<missionEnd val="1">loadConditionalActions:Actions/AddRank.xml</missionEnd>
+<nextMission>NONE</nextMission>
+<posting title="Locate Cracking Software"  requiredRank="0" >There a new advanced cracking software.We want to get it. </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>na0x</sender>
+    <subject>Hard</subject>
+    <body>Hello.We need a cracking software.We dont know the name of this software,only we know it is in a encrypted by password.We updated asset server 
+</body>
+    <attachments>
+      <link comp="dendy1337home"/>
+    </attachments>
+  </email>
+</mission>

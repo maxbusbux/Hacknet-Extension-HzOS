@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dendy1337home" ip="137.567.134.789" name="Dendy1337 home workstation" security="2">
+<ports>22,21</ports>
+<portsForCrack val="2"/>
+<encryptedFile path="home" name="SSLTrojan.dec" extension=".exe" ip="192.168.1.1" header="This is the header" pass="sunrise2032">#SSL_EXE#</encryptedFile>
+<file path="home" name="document repository.txt">I have to  it delete it.3334.6616.3333.6646</file>
+
+</Computer>

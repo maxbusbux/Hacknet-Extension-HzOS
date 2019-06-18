@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    <goal type="filedownload" target="hackxtest" file="SQLBufferOverflow.exe" path="bin"/>
+    <goal type="filedownload" target="hackxtest" file="SMTPOverflow.exe" path="bin"/>
+    <goal type="getstring" target="dash123xax" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/Leaderinfodelete.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Canary</sender>
+    <subject>HackX invitation test</subject>
+    <body>Your request to join HackX group was accepted!But you need to complete test mission.The mission is to hack into the machine,find the password,download tools.
+</body>
+    <attachments>
+      <link comp="Hackx_Assets"/>
+      <link comp="hackxtest"/>
+       <account comp="Hackx_Assets" user="admin" pass="checkthewindow" />
+    </attachments>
+  </email>
+</mission>

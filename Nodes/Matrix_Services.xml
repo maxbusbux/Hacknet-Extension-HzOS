@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="matrix_services" ip="148.415.532.367" name="Matrix Base Services" security="3">
+<trace time="1000"/>
+<ports>22,25,1433,80</ports>
+ <adminPass pass="matrix_reborn"/>
+<portsForCrack val="4"/>
+<file path="home" name="maintance.txt">Password to Matrix mainframe is aswd123ax1234</file>
+<file path="home" name="info.txt">Matrix is a project developed by MatrixSystems.Goal of this project is to create a supercomputer that can create and control vr world.</file>
+<Memory>
+   <Commands>
+     <Command>cd /log</Command>
+     <Command>rm *.log</Command>
+     <Command>cd /log</Command>
+     <Command>rm *.log</Command>
+     <Command>connect 87.135.89.1</Command>
+   </Commands>
+   <Data>
+     <Block>This appears in the "files" section</Block>
+     <Block>
+       more
+       and longer, multi line notes!
+       !
+       asdf
+     </Block>
+   </Data>
+   <Images>
+     <Image>Images/ExampleImage.png</Image>
+   </Images>
+
+ </Memory>
+</Computer>

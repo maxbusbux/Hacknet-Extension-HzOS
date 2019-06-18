@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <RunFunction FunctionName="addRank" />
+    
+  </Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bl4ackouthome" ip="3334.111.555.613" name="bl4ackout home" security="3">
+<trace time="4000"/>
+<trace time="1000"/>
+<ports>22,21,25,80</ports>
+<portsForCrack val="3"/>
+<proxy time="1"></proxy>
+<file name="data.txt" path="home/">Nothing To Watch!Get out</file>
+<dlink target="bl4ackoutfileserver" />
+<eosDevice  id="eosIntroPhone"  empty="true">
+<note>What to do
+1.Fuck some chicks
+2.Finish Encryption Programm
+</note>	
+</eosDevice>
+</Computer>

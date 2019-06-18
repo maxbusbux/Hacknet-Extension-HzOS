@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="matrix02">
+  <goals>
+    <goal type="clearfolder" target="matrix_main" path="sys"/>
+    <goal type="clearfolder" target="matrix_backup" path="BACKUP"/>
+  </goals>
+   <nextMission>NONE</nextMission>
+  <email>
+    <sender>haxor</sender>
+    <subject>Matrix pt3</subject>
+    <body>I have a plan.We need to shut down the main matrix server and destory all backups.</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

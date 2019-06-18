@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    <goal type="filedeletion" target="Woogle_isp" file="Mursik4512.txt" path="home/Searches"/>
+  </goals>
+  <!--
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd>
+  -->
+<missionStart val="7">loadConditionalActions:Actions/UpdateAssets1.xml</missionStart>
+<missionEnd val="1">loadConditionalActions:Actions/AddRank.xml</missionEnd>
+<nextMission>Missions/Matrix01.xml</nextMission>
+<posting title="Delete search history"  requiredRank="0" >Our client want to clear his search history. </posting>
+  <!--
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>1337</sender>
+    <subject>Woogle it</subject>
+    <body>
+    Hello.Our client want ot clear his search history in woogle.His name in woogle is  Mursik4512.
+</body>
+    <attachments>
+      <link comp="Woogle_web"/>
+    </attachments>
+  </email>
+</mission>

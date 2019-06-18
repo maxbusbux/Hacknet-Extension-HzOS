@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddAsset FileName="Decypher.exe" FileContents="#DECYPHER_PROGRAM#" TargetComp="Hackx_Assets" TargetFolderpath="bin" />
+    
+    
+  </Instantly>
+
+</ConditionalActions>

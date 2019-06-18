@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="matrix01">
+  <goals>
+    <goal type="getstring" target="matrix_reborn" />
+  </goals>
+   <nextMission>Missions/Matrix02.xml</nextMission>
+  <email>
+    <sender>haxor</sender>
+    <subject>Matrix</subject>
+    <body>There is one project called Matrix.I don't know the details of this project but i know it's intersting.Get admin password to pc provided below</body>
+    <attachments>
+      <link comp="matrix_services"/>
+    </attachments>
+  </email>
+</mission>

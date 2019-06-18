@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Woogle_web" ip="33.67.12.88" name="Woogle web" security="3">
+<trace time="1500"></trace>
+
+<ports>1443,25,80</ports>
+<portsForCrack val="3"/>
+
+<file name="info.txt" path="home/">A Woogle web server</file>
+<dlink target="Woogle_isp"/>
+</Computer>

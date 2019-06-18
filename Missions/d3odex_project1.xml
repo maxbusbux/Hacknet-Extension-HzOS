@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    
+    <goal type="clearfolder" target="d3odexproject" path="database"/>
+
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <nextMission>Missions/encryption.xml</nextMission>
+
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>d3odex</sender>
+    <subject>Info deletion</subject>
+    <body>Hello.this is my personal request.On this server stored my old project files.Please delete all files related to this project and backups.Thank You.
+</body>
+    <attachments>
+      <link comp="d3odexproject"/>
+    </attachments>
+  </email>
+</mission>

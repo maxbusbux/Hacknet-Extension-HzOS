@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nixmanhome" ip="78.11.46.567" name="Donttalk Battlestation" security="2">
+<file path="home" name="d3odex.txt">Objective:Steal Persobal Data
+Price:500$
+Status:completed
+</file>
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+<dlink target="nixmanbackup"/>	
+</Computer>

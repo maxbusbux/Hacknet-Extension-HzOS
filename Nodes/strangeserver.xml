@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="strange_server" ip="4451.1242.1323.6616" name="Matrix Server" security="3">
+<trace time="3000"/>
+<ports>22,21,25,80,6881</ports>
+<adminPass pass="qwerty123qs" />
+<portsForCrack val="3"/>
+<dlink target="starnge_server_whitelist"/>
+<CustomConnectDisplayDaemon />
+<file name="ccrypt_final.zip" path="home">#BINARY#</file>
+<WhitelistAuthenticatorDaemon Remote="strange_server_whitelist"/>
+<proxy time="1"></proxy>>
+</Computer>

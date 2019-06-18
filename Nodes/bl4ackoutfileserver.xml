@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bl4ackoutfileserver" ip="445.124.123.666" name="bl4ackout file server" security="3">
+<trace time="3000"/>
+<ports>22,21,25,80,6881</ports>
+<portsForCrack val="5"/>
+<firewall level="6" solution="ENCRYPTION"/>
+<dlink target="bl4ackouthome"/>
+<file name="ccrypt_final.zip" path="home">#BINARY#</file>
+<proxy time="1"></proxy>>	
+</Computer>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="matrix_main" ip="876.14.64.1" name="Matrix Central Unit" security="3">
+<trace time="1000"/>
+<ports>22,25,1433,80</ports>
+<CustomConnectDisplayDaemon/>
+<file path="home" name="Info.txt">
+This supercomuter used for creation of virtual world.
+How it works:
+When people connect their minds to this unit this supercomuter sync it minds andr creates the virtual world based on their minds.
+Maximum people is 78.
+</file>
+<dlink target="matrix_backup"/>
+<dlink target="matrix_mail"/>
+<dlink target="matrix_main"/>
+<dlink target="matrix_whitelist1"/>
+<portsForCrack val="4"/>
+</Computer>

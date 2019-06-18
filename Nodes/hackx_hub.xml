@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hackx_hub" ip="111.345.898.456" name="HackX Hub" security="2">
+	<missionHubServer groupName="HackX" serviceName="HackX Contract Hub" missionFolderPath="Missions/Misc" themeColor="200,10,10" lineColor="255,80,80" backgroundColor="20,20,20" allowAbandon="false"/>
+	<account username="user" password="reptide" type="MISSIONLIST"/>
+</Computer>

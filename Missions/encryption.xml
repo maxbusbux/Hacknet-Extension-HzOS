@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    <goal type="fileupload" target="bl4ackoutfileserver" file="ccrypt_final.zip" path="home" destTarget="hackx_dropserver" destPath="Drop/Uploads"/>
+
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/welcometoteam.xml</nextMission>
+
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>na0x</sender>
+    <subject>Encrypt all</subject>
+    <body>Hello.There is new mission from d3odex.The guy known as bl4ackout developed a new advanced encryption programm.We need to get it to our purposes.Upload file to our drop server
+</body>
+    <attachments>
+      <link comp="bl4ackouthome"/>
+      <link comp="hackx_dropserver"/>
+
+    </attachments>
+  </email>
+</mission>

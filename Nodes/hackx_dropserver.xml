@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hackx_dropserver" ip="333.666.333.666" name="HackX Dropserver" security="2">
+<trace time="4000"/>
+<uploadServerDaemon name="HackX Dropserver" folder="Drop" needsAuth="false" color="204,116,212"/>
+
+</Computer>

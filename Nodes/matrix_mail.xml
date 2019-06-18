@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="matrix_mail" ip="15.715.212.37" name="Matrix Mail" security="3">
+<trace time="1000"/>
+<ports>22,25,1443,80</ports>
+
+ <adminPass pass="aswd123asx1234"/>
+<dlink target="matrix_backup"/>
+<dlink target="matrix_mail"/>
+<dlink target="matrix_main"/>
+<account username="gay83" password="LA-014-146" type="2" />
+<mailServer name="Matrix Mail Server" color="50,237,212" generateJunk="true">
+    <email recipient="gay83" sender="Admin" subject="Main server security update">
+      We update main server security.Now it have whitelist server.It's ip is 876.14.64.1
+    </email>
+  </mailServer>
+<portsForCrack val="1000"/>
+</Computer>

@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dendydocs" ip="3334.6616.3333.6646" name="Dendy1337 document server " security="3">
+<trace time="1000"/>
+<ports>22,21,6881</ports>
+<proxy time="1"/>
+<portsForCrack val="3"/>
+<firewall level="6" solution="cracker1234"/>
+<file name="ssl_password.txt" path="home">sunrise2032</file>
+<proxy time="1"></proxy>>	
+</Computer>

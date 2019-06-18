@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Woogle_isp" ip="345.12.45.56" name="Woogle internal services" security="3">
+<trace time="1000"/>
+<proxy time="2" />
+<ports>22,21,443,25</ports>
+<portsForCrack val="4"/>
+<tracker />
+<firewall level="6" solution="woogleit123" additionalTime="1.0"/>
+<file path="home/Searches" name="Mursik4512.txt">
+Mursik4512 search history:
+bad porn 2016 free watch.
+Big dicks images.
+</file>
+<file path="home/Searches" name="ds.txt">
+ds search history:
+dsddsfsdgdesfgfdgfdbdlkjfdgldef.
+cat on keyboard.
+</file>
+
+<dlink target="Woogle_web" />
+</Computer>
